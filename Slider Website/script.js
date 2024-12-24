@@ -5,13 +5,13 @@ const next = document.querySelector(`#next`);
 const prev = document.querySelector(`#prev`);
 
 // Autoplay Slider
-// let runAutoPlay = setInterval(() => {
-//   next.click();
-// }, 5000);
-
-let runAutoPlay = setTimeout(() => {
+let runAutoPlay = setInterval(() => {
   next.click();
 }, 5000);
+
+// let runAutoPlay = setTimeout(() => {
+//   next.click();
+// }, 5000);
 
 next.addEventListener(`click`, () => {
   initSlider(`next`);
@@ -39,9 +39,17 @@ const initSlider = (type) => {
     slider.classList.remove('prev');
   }, 2000);
 
-  clearTimeout(runAutoPlay);
+  // clearTimeout(runAutoPlay);
 
-  runAutoPlay = setTimeout(() => {
-    next.click();
-  }, 5000);
+  // runAutoPlay = setTimeout(() => {
+  //   next.click();
+  // }, 5000);
 };
+
+// Cick thumbnail to enlarge image
+// const selectThumbnailItem = thumbnail.querySelectorAll(`.item`);
+// const selectedThumbnailItem = selectThumbnailItem.forEach((item) => {
+//   item.addEventListener('click', () => {
+
+//   });
+// });

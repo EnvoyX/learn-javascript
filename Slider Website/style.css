@@ -87,6 +87,46 @@ header nav a {
   color: transparent;
   text-shadow: none;
 }
+.slider .list-background .item .detail .name.juggernaut {
+  font-weight: 900;
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.8rem;
+  background: linear-gradient(#ff0f7b, #f89b29);
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+}
+.slider .list-background .item .detail .name.lina {
+  font-weight: 900;
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.8rem;
+  background: linear-gradient(#f3696e, #f8a902);
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+}
+.slider .list-background .item .detail .name.templar-assassin {
+  font-weight: 900;
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.8rem;
+  background: linear-gradient(#439cfb, #f187fb);
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+}
+.slider .list-background .item .detail .name.windranger {
+  font-weight: 900;
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.8rem;
+  background: linear-gradient(#57ebde, #aefb2a);
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+}
 
 .slider .list-background .item .detail figure {
   display: flex;
@@ -108,9 +148,10 @@ header nav a {
 .slider .list-background .item .detail .description {
   margin-top: 1rem;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 40rem;
   text-shadow: 1px 1px 1px #000;
+  mix-blend-mode: difference;
 }
 
 .slider .list-background .item .detail .read-more {
@@ -123,7 +164,7 @@ header nav a {
   padding: 0.6rem 0.8rem;
   border-radius: 0.3rem;
   text-shadow: none;
-  max-width: 9rem;
+  max-width: 11rem;
   transition: 0.3s;
 }
 
@@ -148,6 +189,7 @@ header nav a {
   height: 220px;
   flex-shrink: 0;
   position: relative;
+  cursor: pointer;
 }
 
 .thumbnail .item img {
@@ -174,7 +216,51 @@ header nav a {
   font-size: 1rem;
   text-align: right;
   margin-bottom: 5px;
-  text-shadow: 1px 1px 1px #000;
+}
+.thumbnail .item .detail .name.sven {
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 5px;
+  background: linear-gradient(#0061ff, #60efff);
+  background-clip: text;
+  color: transparent;
+}
+.thumbnail .item .detail .name.juggernaut {
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 5px;
+  background: linear-gradient(#ff0f7b, #f89b29);
+  background-clip: text;
+  color: transparent;
+}
+.thumbnail .item .detail .name.lina {
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 5px;
+  background: linear-gradient(#f3696e, #f8a902);
+  background-clip: text;
+  color: transparent;
+}
+.thumbnail .item .detail .name.templar-assassin {
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 5px;
+  background: linear-gradient(#439cfb, #f187fb);
+  background-clip: text;
+  color: transparent;
+}
+.thumbnail .item .detail .name.windranger {
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 5px;
+  background: linear-gradient(#57ebde, #aefb2a);
+  background-clip: text;
+  color: transparent;
 }
 
 .thumbnail .item .detail blockquote {
