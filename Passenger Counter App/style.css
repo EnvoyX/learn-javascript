@@ -1,18 +1,28 @@
 body {
-  background-image: url("station.jpg");
+  background: linear-gradient(#ff1b6b, #45caff);
   background-size: cover;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Trebuchet MS", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
+.container {
+  max-width: 50%;
+  height: 75%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
 h1 {
+  color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 h2 {
+  color: #fff;
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 20px;
@@ -30,9 +40,12 @@ button {
 }
 
 #increment-btn {
-  background: darkred;
+  background: lightblue;
 }
 
 #save-btn {
   background: darkgreen;
+}
+#reset-btn {
+  background: darksalmon;
 }
